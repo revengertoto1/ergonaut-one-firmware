@@ -26,7 +26,7 @@
 
         hash {
             bindings = <&kp HASH>;
-            key-positions = <16 28>;
+            key-positions = <36 37>;
         };
     };
 
@@ -36,20 +36,20 @@
         default_layer {
             display-name = "MAIN";
             bindings = <
-&mt LGUI RBKT    &kp Q  &kp W  &kp E             &kp R            &kp T          &kp Y               &kp U                &kp I          &kp O    &kp P     &mt LBKT ESCAPE
-&mt TAB GRAVE    &kp A  &kp S  &kp D             &kp F            &kp G          &kp H               &kp J                &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
-&mt LCTRL MINUS  &kp Z  &kp X  &kp C             &kp V            &kp B          &kp N               &kp M                &kp COMMA      &kp DOT  &kp FSLH  &mt RALT DELETE
-                               &lt RSE LEFT_ALT  &mt LSHFT SPACE  &lt LWR ENTER  &lt LWR LEFT_ARROW  &mt RSHFT BACKSPACE  &lt RSE RIGHT
+&mt LGUI RBKT    &kp Q  &kp W  &kp E             &kp R      &kp T               &kp Y          &kp U                &kp I          &kp O    &kp P     &mt ESCAPE LEFT_BRACKET
+&mt TAB GRAVE    &kp A  &kp S  &kp D             &kp F      &kp G               &kp H          &kp J                &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
+&mt LCTRL MINUS  &kp Z  &kp X  &kp C             &kp V      &kp B               &kp N          &kp M                &kp COMMA      &kp DOT  &kp FSLH  &mt RALT DELETE
+                               &lt RSE LEFT_ALT  &kp SPACE  &lt LWR LEFT_SHIFT  &lt LWR ENTER  &mt RSHFT BACKSPACE  &lt RSE RIGHT
             >;
         };
 
         lower_layer {
             display-name = "SYM";
             bindings = <
-&mt EQUAL F1    &kp HASH  &kp F3  &kp F4    &kp F5    &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-&mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-&kp LEFT_ALT    &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp RALT
-                                  &trans    &trans    &trans     &trans     &trans    &trans
+&mt EQUAL F1       &kp HASH  &kp F3  &kp F4    &kp F5    &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
+&mt LEFT_ALT PLUS  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RCTRL MINUS
+&kp LEFT_CONTROL   &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp RALT
+                                     &trans    &trans    &trans     &trans     &trans    &trans
             >;
         };
 
